@@ -55,10 +55,8 @@ RCT_EXPORT_MODULE();
                @"code138": AVMetadataObjectTypeCode128Code,
                @"pdf417": AVMetadataObjectTypePDF417Code,
                @"qr": AVMetadataObjectTypeQRCode,
-               @"aztec": AVMetadataObjectTypeAztecCode
-               #ifdef AVMetadataObjectTypeInterleaved2of5Code
-               ,@"interleaved2of5": AVMetadataObjectTypeInterleaved2of5Code
-               # endif
+               @"aztec": AVMetadataObjectTypeAztecCode,
+               @"interleaved2of5": AVMetadataObjectTypeInterleaved2of5Code
                #ifdef AVMetadataObjectTypeITF14Code
                ,@"itf14": AVMetadataObjectTypeITF14Code
                # endif
